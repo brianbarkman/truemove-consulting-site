@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | TrueMove</title>
+    <meta name="description" content="Get in touch with TrueMove for logistics consulting or software advisory services.">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="index.html" class="logo">
+                <span class="logo-true">True</span><span class="logo-move">Move</span>
+            </a>
+            <div class="nav-links">
+                <a href="consulting.html" class="nav-link">Consulting</a>
+                <a href="advisory.html" class="nav-link">Advisory</a>
+                <a href="contact.html" class="nav-link nav-link-cta active">Contact</a>
+            </div>
+            <button class="nav-toggle" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mobile-menu">
+        <div class="mobile-menu-content">
+            <a href="consulting.html" class="mobile-link">Consulting</a>
+            <a href="advisory.html" class="mobile-link">Advisory</a>
+            <a href="contact.html" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-content">
+                    <p class="section-eyebrow">Contact</p>
+                    <h1 class="contact-title">Let's Talk</h1>
+                    <p class="contact-intro">
+                        Whether you're a shipper looking to reduce costs or a software company seeking operational insight, we'd like to hear from you.
+                    </p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <h3 class="contact-method-title">Email</h3>
+                            <a href="mailto:info@truemoveconsulting.com" class="contact-method-value">info@truemoveconsulting.com</a>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <h3 class="contact-method-title">Location</h3>
+                            <p class="contact-method-value">Southwest Iowa</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-services">
+                        <h3 class="contact-services-title">Looking for something specific?</h3>
+                        <div class="contact-services-links">
+                            <a href="consulting.html" class="contact-service-link">
+                                <span>Shipper Services</span>
+                                <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                            <a href="advisory.html" class="contact-service-link">
+                                <span>Software Advisory</span>
+                                <svg width="16" height="16" viewBox="0 0 20 20" fill="none">
+                                    <path d="M4 10H16M16 10L11 5M16 10L11 15" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+                        <div class="form-group">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="text" id="name" name="name" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" id="email" name="email" class="form-input" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="company" class="form-label">Company</label>
+                            <input type="text" id="company" name="company" class="form-input">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="interest" class="form-label">I'm interested in...</label>
+                            <select id="interest" name="interest" class="form-select">
+                                <option value="">Select an option</option>
+                                <option value="consulting">Consulting (Shipper Services)</option>
+                                <option value="advisory">Advisory (Software Companies)</option>
+                                <option value="both">Both / Not Sure</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message" class="form-label">Message</label>
+                            <textarea id="message" name="message" class="form-textarea" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                    <p class="form-note">We typically respond within one business day.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">
+                        <span class="logo-true">True</span><span class="logo-move">Move</span>
+                    </a>
+                    <p class="footer-tagline">Logistics expertise, delivered.</p>
+                </div>
+                <div class="footer-links-group">
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Services</h4>
+                        <a href="consulting.html" class="footer-link">Consulting</a>
+                        <a href="advisory.html" class="footer-link">Advisory</a>
+                    </div>
+                    <div class="footer-col">
+                        <h4 class="footer-heading">Company</h4>
+                        <a href="contact.html" class="footer-link">Contact</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 TrueMove Consulting, LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
